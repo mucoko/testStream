@@ -66,8 +66,8 @@ def summarize_text(text, num_sentence=3):
 #스트림릿 페이지에서 사용할 모든 함수, 레이아웃 등을 정의
 def main():
     subheader = """
-    <div style="background-color:rgba(125, 125, 125, 0.3); padding:8px;">
-    <h3 style="color:blue">Powered by Streamlit</h1>
+    <div style="background-color:rgba(148, 0, 211); padding:8px;">
+    <h3 style="color:yellow">임채정의 첫 웹사이트에 오신 것을 환영합니다.</h1>
     </div>
     """
 
