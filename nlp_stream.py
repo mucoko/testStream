@@ -142,7 +142,7 @@ def main():
             elif target_language == 'English' :
                 target_lang = 'en'
             else:
-                target_lang = 'kr'
+                target_lang = 'ko'
 
 
 
