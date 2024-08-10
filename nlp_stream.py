@@ -129,7 +129,7 @@ def main():
         if len(raw_text) <3:
             st.warning("텍스트가 너무 짧습니다.")
         else:
-            target_language = st.selectbox("번역할 언어를 선택하세요", ["English","German", "Spanish", "French", "Italian"])
+            target_language = st.selectbox("번역할 언어를 선택하세요", ["Korean","English","German", "Spanish", "French", "Italian"])
 
             if target_language == 'German' :
                 target_lang = 'de'
@@ -139,8 +139,10 @@ def main():
                 target_lang = 'fr'
             elif target_language == 'Italian' :
                 target_lang = 'it'
-            else :
+            elif target_language == 'English' :
                 target_lang = 'en'
+            else:
+                target_lang = 'kr'
 
 
 
